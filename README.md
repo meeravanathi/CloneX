@@ -14,7 +14,6 @@
 - **User Authentication**: Sign up, log in, and manage your account.
 - **Tweet Management**: Create, edit, delete, and view tweets.
 - **Follow System**: Follow and unfollow other users.
-- **Real-time Updates**: See live updates on tweets and notifications.
 - **Responsive Design**: Fully responsive UI for a seamless experience on all devices.
 
 ## Tech Stack
@@ -35,20 +34,20 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/x-twitter-clone.git
-    cd x-twitter-clone
+    git clone https://github.com/meeravanathi/X-clone.git
+    cd X-clone
     ```
 
 2. Navigate to the `backend` directory and install dependencies:
     ```bash
-    cd backend
+    cd server
     npm install
     ```
 
 3. Create a `.env` file in the `backend` directory with the following environment variables:
     ```bash
     MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
+    JWT=your_jwt_secret
     ```
 
 4. Start the backend server:
@@ -60,7 +59,7 @@
 
 1. Navigate to the `frontend` directory and install dependencies:
     ```bash
-    cd ../frontend
+    cd client
     npm install
     ```
 
@@ -69,7 +68,7 @@
     npm start
     ```
 
-The application should now be running at `http://localhost:3000` (for the frontend) and `http://localhost:5000` (for the backend).
+The application should now be running at `http://localhost:3000` (for the frontend) and `http://localhost:8000` (for the backend).
 
 ## Usage
 
@@ -82,8 +81,8 @@ The application should now be running at `http://localhost:3000` (for the fronte
 
 ### Authentication
 
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Log in an existing user
+- `POST /api/auth/signup` - Register a new user
+- `POST /api/auth/signin` - Log in an existing user
 
 ### Tweets
 
