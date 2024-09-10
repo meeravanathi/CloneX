@@ -21,7 +21,6 @@
 - **Frontend**: React, Redux, Tailwind CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB, Mongoose
-- **Deployment**: [Deployment details, if applicable]
 
 ## Installation
 
