@@ -1,4 +1,4 @@
-# X-clone
+# cloneX
 ## Table of Contents
 
 - [Features](#features)
